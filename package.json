@@ -1,7 +1,7 @@
 {
   "name": "react-native-month-picker",
-  "version": "1.0.0",
-  "description": "A simple and customizable month and year picker for react native mobile apps.",
+  "version": "1.0.1",
+  "description": "A simple and customizable react native month & year picker for iOS and Android apps.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,13 +11,16 @@
     "url": "git+ssh://git@github.com/elinahovakimyan/react-native-month-picker.git"
   },
   "keywords": [
-    "month",
+    "react native month picker",
+    "month-picker",
+    "month picker",
+    "month and year picker",
     "picker",
-    "react",
-    "native",
+    "react native",
     "date",
-    "picker",
-    "mm/yyyy"
+    "month",
+    "mm/yyyy",
+    "mm/yyyy picker"
   ],
   "author": "Elina Hovakimyan",
   "license": "MIT",

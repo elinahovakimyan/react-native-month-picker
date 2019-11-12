@@ -1,6 +1,6 @@
 # Welcome to `react-native-month-picker`
 
-This is a simple and customizable month picker for react native apps. **react-native-month-picker** allows to create a date picker with month and year fields only. This package is inspired and based on [react-native-month-selector](https://www.npmjs.com/package/react-native-month-selector) with some bugfixing and improvements.
+This is a simple and customizable react native month picker for both iOS and Android apps. **react-native-month-picker** allows to create a date picker with month and year fields only. This package is inspired and based on [react-native-month-selector](https://www.npmjs.com/package/react-native-month-selector) with some bugfixing and improvements.
 
 
 
