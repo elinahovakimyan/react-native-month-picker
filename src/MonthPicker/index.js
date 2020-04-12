@@ -200,6 +200,7 @@ class MonthPicker extends React.PureComponent {
   }
 
   render() {
+    moment.updateLocale(this.props.localeLanguage, this.props.localeSettings);
     const months = getMonthListFirstDayDate(
       this.state.initialView,
     );
