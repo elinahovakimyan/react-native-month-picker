@@ -20,10 +20,12 @@ const getMonthListFirstDayDate = (date) => {
 };
 
 class MonthPicker extends React.PureComponent {
-  state = { initialView: this.props.initialView };
-
-  componentDidMount() {
+  constructor(props) {
+    super(props);
+    
     moment.updateLocale(this.props.localeLanguage, this.props.localeSettings);
+    
+    this.state = { initialView: this.props.initialView };
   }
 
   getSelectedBackgroundColor(month) {
